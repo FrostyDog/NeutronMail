@@ -1,0 +1,255 @@
+/* Big --- fix the lines etc */
+
+@media screen and (max-width: 1700px) {
+  .benefits .line-wrapper:nth-child(2) .line {
+    height: 108%;
+    bottom: 45%;
+  }
+
+  .benefits .line-wrapper:nth-child(4) .line {
+    height: 270%;
+    top: 0;
+  }
+
+  .devices-image {
+    right: 14%;
+  }
+
+  .footer-socio-links ul {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .benefits .line-wrapper:nth-child(2) .line {
+    display: none;
+  }
+
+  .logo {
+    flex: 2;
+  }
+
+  .mid-buttons {
+    width: 37%;
+  }
+
+  body {
+    background: url("../assets/images/Background-header.png") 60% 3rem no-repeat;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: 13px;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .blue-gradient {
+    display: none;
+  }
+
+  .mid-section {
+    padding-bottom: 30%;
+  }
+
+  .benefits .line-wrapper:nth-child(4) .line {
+    height: 250%;
+    top: 0;
+  }
+
+  .devices-image {
+    right: 8%;
+  }
+
+  .footer-socio-links ul {
+    width: 55%;
+  }
+
+  body {
+    background: url("../assets/images/Background-header.png") 60% 2rem no-repeat;
+  }
+
+  .footer-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .devices-image {
+    right: 1%;
+  }
+  .devices {
+    right: 24%;
+  }
+
+  .footer-socio-links ul {
+    width: 100%;
+  }
+
+  .nav-buttons {
+    padding: 0;
+  }
+
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-links.padding-left {
+    padding-left: 0;
+    padding-right: 2rem;
+  }
+}
+
+/* Bigger layout */
+@media screen and (max-width: 800px) {
+  .line,
+  .devices-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-benefit,
+  .quote,
+  .privacy,
+  .devices {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .line-wrapper {
+    padding: 1rem;
+  }
+
+  .devices {
+    position: static;
+    align-items: center;
+    text-align: center;
+  }
+
+  .languages ul {
+    width: 40%;
+  }
+
+  .devices-wrapper {
+    padding-bottom: 4rem;
+  }
+
+  .devices .row {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mid-buttons {
+    width: 60%;
+  }
+
+  .main-benefit {
+    width: 100%;
+    padding: 0 0.2rem;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-links:nth-child(4) {
+    display: flex;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+  }
+
+  .contact {
+    width: 60%;
+  }
+}
+
+/* small screen */
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.4rem;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 10px;
+  }
+
+  .languages ul {
+    width: 80%;
+  }
+
+  .social-links a i {
+    background-color: #454545;
+    padding: 0.7rem;
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+
+  .line-wrapper {
+    padding: 0.5rem;
+  }
+
+  body {
+    background: url("../assets/images/Background-header.png") 60% -28rem no-repeat;
+  }
+
+  .header-wrapper {
+    min-height: 48vh;
+  }
+  .clients,
+  .partners {
+    display: none;
+  }
+
+  .benefit-wrapper {
+    max-width: 28%;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 9px;
+  }
+
+  .social-links a i {
+    display: none;
+  }
+
+  body {
+    background: none;
+  }
+
+  .header-wrapper {
+    min-height: 25vh;
+  }
+}
